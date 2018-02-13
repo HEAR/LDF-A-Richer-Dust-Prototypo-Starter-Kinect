@@ -1,0 +1,1744 @@
+WebserverBasics-WPF.exe Error: 0 : Exception encountered while listening for connections:
+System.Net.HttpListenerException (0x80004005): Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus
+   à System.Net.HttpListener.AddAllPrefixes()
+   à System.Net.HttpListener.Start()
+   à Microsoft.Samples.Kinect.Webserver.ThreadHostedHttpListener.ListenerThreadStateManager.Listen() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\ThreadHostedHttpListener.cs:ligne 451
+   à Microsoft.Samples.Kinect.Webserver.ThreadHostedHttpListener.ListenerThread(Object data) dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\ThreadHostedHttpListener.cs:ligne 279
+  DateTime=2017-05-02T15:32:46.4650253Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.5775509Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.6933832Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.6948881Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.6963917Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.6988988Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7044126Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7054152Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7139383Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7144397Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7144397Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7144397Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7189530Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7199543Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7380019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7385037Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7385037Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7385037Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7390046Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7405150Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7490312Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:48.7595588Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:49.8684036Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:50.4154743Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:50.8055300Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:53.5540296Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:56.6727488Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:56.7243900Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:33:57.2870272Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:24.4821867Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:24.5413440Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:25.1183774Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:55.9559130Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1153370Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1153370Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1153370Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1163405Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1163405Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1489263Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1494276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1494276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1499285Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1499285Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1499285Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1699823Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1699823Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1709850Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1714863Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1719876Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1810116Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1920414Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.1925427Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:56.2130970Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:57.9858120Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:58.0559983Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:58.3056623Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:59.2115720Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:59.5970974Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:59.6186539Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-02T15:35:59.6597632Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:35:59.7129050Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-02T15:36:02.3368900Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:05.8002462Z
+WebserverBasics-WPF.exe Warning: 0 : Problem encountered while closing socket. Client might have gone away abruptly without initiating socket close handshake.
+System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.OperationCanceledException: L'opération a été annulée.
+   à System.Threading.CancellationToken.ThrowOperationCanceledException()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à Microsoft.Samples.Kinect.Webserver.WebSocketChannelBase.<SendCloseMessagesAsync>d__33.MoveNext() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\WebSocketChannelBase.cs:ligne 576
+  DateTime=2017-05-02T15:36:48.6418099Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.6433118Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.7651362Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.7651362Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.7651362Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.7656375Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.7656375Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8042402Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8042402Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8047432Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8047432Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8333192Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8333192Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8578829Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8578829Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8578829Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8583846Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.8689165Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.9390993Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.9395998Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.9401007Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:48.9401007Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:51.1409549Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-02T15:36:51.1956002Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-02T15:36:51.2196638Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:51.2733064Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:51.3043895Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:51.4743428Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:52.6780506Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:54.8157278Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:36:54.8157278Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:37:02.0640055Z
+WebserverBasics-WPF.exe Warning: 0 : Problem encountered while closing socket. Client might have gone away abruptly without initiating socket close handshake.
+System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.OperationCanceledException: L'opération a été annulée.
+   à System.Threading.CancellationToken.ThrowOperationCanceledException()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à Microsoft.Samples.Kinect.Webserver.WebSocketChannelBase.<SendCloseMessagesAsync>d__33.MoveNext() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\WebSocketChannelBase.cs:ligne 576
+  DateTime=2017-05-02T15:37:20.0007654Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dopn/index.html", client="::1" completed with result: 404
+  DateTime=2017-05-02T15:39:24.4099558Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.8519701Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9612757Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9612757Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9612757Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9612757Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9622801Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9622801Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9652817Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9662839Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9662839Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9672870Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9672870Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9672870Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9763162Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9853355Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9853355Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9853355Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9853355Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:29.9863390Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:30.0214387Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:30.0214387Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-02T15:39:30.6477896Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:30.6487927Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-02T15:39:30.6748612Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:30.7009310Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:31.2744572Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:31.9171618Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T15:39:38.0218342Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:21.6655962Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:21.8987144Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:21.8992141Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:21.8992141Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:21.8992141Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:21.8992141Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.0275546Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.0280572Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.0280572Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.0295612Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.0300616Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.0300616Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.1398536Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.1403554Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.1403554Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.1418594Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.1418594Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.2696990Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.2696990Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.2702007Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:22.3619447Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-02T16:01:23.9566861Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:23.9596945Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-02T16:01:23.9872678Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:24.0429154Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:24.8560776Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:25.5559624Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:28.7389286Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:29.4317713Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:29.7751838Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:01:31.5762189Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:14.6378078Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:14.9363840Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:14.9363840Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:14.9604484Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0045649Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0050662Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0376589Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0476800Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0637222Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0877867Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0882884Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.0882884Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.1283947Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.1288960Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.1288960Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.1750182Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.1750182Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.2045969Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.2056000Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.2056000Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:15.2061009Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-02T16:02:17.3149440Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-02T16:02:17.3359996Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:17.3370027Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:17.3643648Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:17.4230310Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:17.8496798Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:19.3010402Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:21.5511202Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:21.5746829Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-02T16:02:25.9511987Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:15.9571034Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:16.0683994Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:16.0683994Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:16.0683994Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:16.0689003Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:16.2348416Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:16.4343732Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.0805914Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.0805914Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.0805914Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.0805914Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.0810927Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.0820950Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.3854038Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.3859038Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.3859038Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.3859038Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.3864056Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.4641101Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:17.4821581Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:18.1143403Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:01:20.8759296Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:20.9335834Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:20.9345852Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:01:20.9365910Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:21.0759616Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:22.7855079Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:25.9730151Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:29.2598959Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:29.2879697Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:01:35.8975557Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:49.9835597Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.3304824Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.3304824Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.3304824Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.3309841Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.3309841Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.3314850Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.4352606Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.4357624Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.4357624Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.4357624Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.4357624Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.4357624Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5260028Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5260028Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5260028Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5260028Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5265046Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5741304Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.5851593Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:50.8278055Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:17:52.9866036Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:52.9906138Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:17:53.0136751Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:53.0557961Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:53.1625861Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:53.2493167Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:54.3183177Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:56.5154650Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:56.6327783Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:17:59.7836058Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.5317415Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7429423Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7439446Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7439446Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7439446Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7444468Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7800401Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7800401Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7800401Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7805415Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.7805415Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8201502Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8211529Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8211529Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8216517Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8216517Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8216517Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8823121Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8828139Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8833152Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:35.8838166Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:18:37.6486042Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:37.6516165Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:18:37.6606358Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:37.6947264Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:37.7749457Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:37.8912581Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:38.8411828Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:39.9593831Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:40.3227473Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:18:43.5824781Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:53.9086588Z
+WebserverBasics-WPF.exe Warning: 0 : Problem encountered while closing socket. Client might have gone away abruptly without initiating socket close handshake.
+System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.OperationCanceledException: L'opération a été annulée.
+   à System.Threading.CancellationToken.ThrowOperationCanceledException()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à Microsoft.Samples.Kinect.Webserver.WebSocketChannelBase.<SendCloseMessagesAsync>d__33.MoveNext() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\WebSocketChannelBase.cs:ligne 576
+  DateTime=2017-05-03T07:19:53.9527693Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.1192162Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.1192162Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.1192162Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.1192162Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.1197176Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2405398Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2405398Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2410411Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2415420Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2590882Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2691153Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2701176Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2721233Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2726247Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.2726247Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.3508331Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.3513353Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.3518358Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.3563482Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:54.4345558Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:19:56.8893423Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:56.8923495Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:19:56.9008768Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:56.9324642Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:57.0317325Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:57.3069649Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:58.7448738Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:19:59.7042466Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:20:00.3430383Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:20:06.3281967Z
+WebserverBasics-WPF.exe Warning: 0 : Problem encountered while closing socket. Client might have gone away abruptly without initiating socket close handshake.
+System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.OperationCanceledException: L'opération a été annulée.
+   à System.Threading.CancellationToken.ThrowOperationCanceledException()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à Microsoft.Samples.Kinect.Webserver.WebSocketChannelBase.<SendCloseMessagesAsync>d__33.MoveNext() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\WebSocketChannelBase.cs:ligne 576
+  DateTime=2017-05-03T07:24:11.2690100Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.2705140Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4209144Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4209144Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4214153Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4214153Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4214153Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4565082Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4570095Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4570095Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4570095Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.4570095Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.5602842Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.5602842Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.5607872Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.5612886Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.5622904Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.5622904Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.6550366Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.6555375Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.6555375Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:11.9618518Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:24:13.8288500Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:13.8324301Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:24:13.8514778Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:13.8945925Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:13.9447296Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:14.0304632Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:14.8352201Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:15.8171678Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:15.8552700Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:24:19.4515537Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.7591821Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8682646Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8682646Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8682646Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8682646Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8926187Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8926187Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8926187Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.8926187Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.9206929Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.9337276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.9337276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.9337276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.9337276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:47.9347307Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:48.0049250Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:48.0054221Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:48.0054221Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:48.0054221Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:48.0059234Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:48.0164514Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:28:50.4142537Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:50.4152538Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:28:50.4212702Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:50.4854443Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:50.5295650Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:50.5847164Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:51.9413671Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:53.0873788Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:53.5185349Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:28:57.7882539Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:21.7815710Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:21.9495292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:21.9495292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:21.9495292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:21.9500340Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:21.9500340Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.0708514Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.0708514Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.0708514Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.0708514Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.0708514Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.0713528Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.1430439Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.2638648Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.2638648Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.2638648Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.2638648Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.2869261Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.2869261Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.3124962Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:22.3129963Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:31:24.0590447Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:24.0620532Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:31:24.0710776Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:24.0961447Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:24.1518119Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:24.2375416Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:25.0882304Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:26.0468173Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:26.0468173Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:31:29.4937643Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:34.8972066Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.1714360Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.1714360Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.1719373Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.1719373Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.1724386Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.2300920Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.2712005Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.2712005Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.2712005Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.2717022Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.2717022Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.3143232Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.3774831Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.3774831Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.3834996Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.3850176Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.3860062Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.7344333Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:35.7840653Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:36.0602987Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:40:39.2357453Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:40:39.2593076Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:39.2643209Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:39.2969071Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:39.3535586Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:39.8358413Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:41.1553553Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:42.1957069Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:42.4854959Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:40:45.6630439Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.5242966Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.7128026Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.7133044Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.7133044Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.7133044Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.7133044Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8170795Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8386373Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8406434Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8481634Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8481634Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8496687Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8496687Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8496687Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8632043Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8632043Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8632043Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8652084Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.8737306Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:53.9098287Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:54.0381684Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:43:56.3514876Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T07:43:56.3835682Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:56.3845722Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:56.4226791Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:56.4788322Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:56.5475170Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:57.4525159Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:58.4773662Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:43:58.9820638Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T07:44:03.4178535Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.0067149Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.1927348Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.1927348Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.1932365Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.1932365Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.1937378Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.2203081Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.2559019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.2559019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.2559019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.2559019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.2559019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3080427Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3105481Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3115508Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3326068Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3326068Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3326068Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3506535Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3511557Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:30.3802330Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:40:31.8355222Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:31.8385297Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:40:31.8465515Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:31.9367970Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:32.4421829Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:33.2051119Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:36.3755414Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:50.2213918Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:50.3397056Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:40:51.0877551Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:18.9515316Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1661069Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1666078Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1666078Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1666078Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1671092Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1856589Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1916749Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1916749Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1921762Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1926767Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.1926767Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.2413065Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.2418082Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.2548425Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.2553438Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.2573496Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.3360585Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.3360585Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.3365598Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:19.4759301Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:41:21.8748766Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:41:21.9029530Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:21.9039548Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:21.9455706Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:21.9826641Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:22.4689575Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:23.6531068Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:24.9019153Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:25.0763866Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:41:31.1091618Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:49.8061223Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0307192Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0307192Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0312214Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0312214Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0312214Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0908796Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0908796Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0913809Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0913809Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.0913809Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.1274765Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.1585596Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.1585596Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.1590626Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.1590626Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.1595618Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.2327569Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.2848952Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.2853969Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:50.6884685Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:42:53.3425660Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:53.3806673Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:53.3806673Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:42:53.3881873Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:53.5195367Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:53.8484113Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:56.2282411Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:59.5906838Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:42:59.8639104Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:43:07.5883426Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:01.8983770Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.1370125Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.1370125Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.1375138Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.1375138Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.1385165Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.1390178Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2463053Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2468045Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2468045Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2468045Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2468045Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2473054Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2703668Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.2869108Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.3255134Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.3255134Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.3255134Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.3260258Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.3977054Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:02.4548570Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:45:04.8495066Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:45:04.8971337Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:04.9477684Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:04.9858688Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:05.0334959Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:06.5570471Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:07.4559377Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:08.3874189Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:08.5668933Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:13.0296909Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:28.7261014Z
+WebserverBasics-WPF.exe Warning: 0 : Problem encountered while closing socket. Client might have gone away abruptly without initiating socket close handshake.
+System.Net.WebSockets.WebSocketException (0x80004005): Une erreur WebSocket interne s'est produite. Consultez innerException, le cas échéant, pour plus d'informations.  ---> System.Net.HttpListenerException (0x80004005): Une opération a été tentée sur une connexion réseau qui n’existe pas
+   à System.Net.WebSockets.WebSocketHttpListenerDuplexStream.WriteAsyncFast(HttpListenerAsyncEventArgs eventArgs)
+   à System.Net.WebSockets.WebSocketHttpListenerDuplexStream.<MultipleWriteAsyncCore>d__38.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<SendFrameAsync>d__48.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   à System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à Microsoft.Samples.Kinect.Webserver.WebSocketChannelBase.<SendCloseMessagesAsync>d__33.MoveNext() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\WebSocketChannelBase.cs:ligne 580
+  DateTime=2017-05-03T08:45:29.2419776Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7192431Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7377920Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7413018Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7713818Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7718831Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7738889Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.7894294Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8485880Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8485880Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8681417Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8686409Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8691418Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8706492Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8721506Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8741547Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.8746560Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.9017276Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.9022294Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.9027307Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:29.9027307Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:45:32.0392389Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:45:32.0623049Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:32.0628062Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:32.1014119Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:32.1415190Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:32.2122104Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:33.0826304Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:33.9547904Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:34.3338065Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:45:37.6211644Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.1040052Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3386496Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3391463Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3391463Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3391463Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3391463Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3822605Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3827623Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3827623Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3832632Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3832632Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.3847676Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5211311Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5216316Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5562240Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5567258Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5572263Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5707627Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5717649Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5722663Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:18.5722663Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:49:20.2204766Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:20.2234838Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:49:20.2325086Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:20.2686123Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:20.3387981Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:20.3563478Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:21.2307367Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:21.6278255Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:21.6318324Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:49:25.0578373Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.2358848Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.5577404Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.5577404Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.5582422Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.5582422Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.5582422Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.5582422Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6484822Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6484822Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6489839Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6489839Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6489839Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6489839Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6961088Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6961088Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6961088Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6961088Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.6961088Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.7342097Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:56.7342097Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:57.2099759Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:50:59.3065515Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T08:50:59.3456564Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:59.3466582Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:59.3466582Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:59.4358959Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:50:59.7111275Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:51:00.7414153Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:51:01.8646533Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:51:02.3569622Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T08:51:05.8052109Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.4653231Z
+WebserverBasics-WPF.exe Warning: 0 : Problem encountered while closing socket. Client might have gone away abruptly without initiating socket close handshake.
+System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.Net.WebSockets.WebSocketException (0x80004005): L'instance 'System.Net.WebSockets.ServerWebSocket' ne peut pas être utilisée pour la communication, car sa transition à l'état 'Aborted' a été effectuée. ---> System.OperationCanceledException: L'opération a été annulée.
+   à System.Threading.CancellationToken.ThrowOperationCanceledException()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseOutputAsyncCore>d__51.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+   à System.Net.WebSockets.WebSocketBase.ThrowIfAborted(Boolean aborted, Exception innerException)
+   à System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   à System.Net.WebSockets.WebSocketBase.<CloseAsyncCore>d__56.MoveNext()
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à Microsoft.Samples.Kinect.Webserver.WebSocketChannelBase.<SendCloseMessagesAsync>d__33.MoveNext() dans C:\Users\Julien\Projects\clones\Microsoft.Samples.Kinect.Webserver\WebSocketChannelBase.cs:ligne 576
+  DateTime=2017-05-03T09:00:24.5495501Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.6919292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.6919292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.6919292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.6919292Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.6924305Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.7310383Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.7395559Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.7395559Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.7395559Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.7395559Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.7400572Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8077368Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8092412Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8673959Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8683985Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8688999Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8688999Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8688999Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.8954710Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:24.9997474Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T09:00:26.5687996Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T09:00:26.5938641Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:26.5978752Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:26.6329750Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:26.7011567Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:26.7467832Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:27.8951702Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:28.6692523Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:29.2077210Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:00:33.2053389Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.4377144Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.6041694Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.6041694Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.6046703Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.6046703Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.6056743Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.6482876Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7059397Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7059397Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7059397Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7064406Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7480521Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7480521Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7535668Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7841485Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7856521Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.7856521Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.8322799Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.8322799Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.8327778Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:21.9205108Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-03T09:03:23.6561140Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-03T09:03:23.6816956Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:23.6821974Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:23.7233101Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:23.7935019Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:23.9238473Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:24.8040026Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:25.7761677Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:26.1777664Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-03T09:03:29.6118925Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.3358362Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.3714339Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.3714339Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.3714339Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.3719327Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4025132Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4130407Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4135425Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4140442Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4140442Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4240739Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4406145Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4406145Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4411167Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4411167Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4411167Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4591634Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4601665Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4727002Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.4727002Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:48.6341283Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-04T12:27:50.0495229Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-04T12:27:50.0515282Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:50.0525385Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:50.2009388Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:50.8358243Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:52.0315026Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:27:57.1747205Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:49:05.9580519Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:49:06.8679711Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:49:07.9142546Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:50:46.1493454Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:50:46.3373475Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js.map", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:50:47.0267858Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/index.html", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.3398845Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4842804Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/kinect-gestures.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4842804Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/person.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4842804Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gesture-manager.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4842804Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/checker.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4842804Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/player-position.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4978164Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/jump.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4983212Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/player-register.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4983212Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-stability.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4983212Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/tools/skeleton-math.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4988186Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/sdk/Kinect-1.8.0.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.4988186Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/debug/debug-drawer.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.5554697Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/swipe.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.5554697Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/joystick.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.5554697Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/squat.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.5554697Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/gestures/wave.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.5559706Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/main.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.6106160Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.6126230Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/src/lib.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.6131226Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo-canvas.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:20.6131226Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/stream", client="::1" completed with result: 101
+  DateTime=2017-05-04T12:51:22.2262601Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/events", client="::1" completed with result: 101
+  DateTime=2017-05-04T12:51:22.2433055Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/worker.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:22.2483214Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/Kinect/default/state", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:22.3201238Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/prototypo.js", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:23.0301108Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:23.7631233Z
+WebserverBasics-WPF.exe Information: 0 : Request for URI="http://localhost:9000/files/dcon/lib/ptypo/antique.json", client="::1" completed with result: 200
+  DateTime=2017-05-04T12:51:27.1112957Z
